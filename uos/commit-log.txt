@@ -1,0 +1,463 @@
+commit e1485d4393c7ae18ce4eb024db52378a21bf2430
+Author: laon-private <71617071+laon-private@users.noreply.github.com>
+Date:   Thu Apr 10 16:37:08 2025 +0900
+
+    iker / 관리자 권한에 따른 주소리스트 목록 기능 수정
+
+commit d6e6fcb8566ed1ce9fa393515a0ab029bb09d655
+Author: laon-private <71617071+laon-private@users.noreply.github.com>
+Date:   Mon Mar 17 10:24:07 2025 +0900
+
+    steve / 업데이트 체크 기능 추가, 닉네임 검색 기능 추가, 영문검색 기능 추가,
+    
+    - ios 16이상부터 업로드 안되던 에러 수정
+    - flutter 3.29.1버전 적용
+
+commit 1a89a6105383da409a83383d98c4e5d2c1a7304f
+Author: laon-private <private@laonstory.com>
+Date:   Fri May 17 10:54:14 2024 +0900
+
+    steve / ios 권한 문구 수정
+
+commit 2ddea737671f7945333dbf0c34181a6b09b47c95
+Author: laon-private <private@laonstory.com>
+Date:   Tue May 14 18:11:35 2024 +0900
+
+    steve / ios 권한 설명 수정
+
+commit 481c4654cfe40c2d303c91d4c8c3269580072847
+Merge: 8d00853 15cd5aa
+Author: laon-private <private@laonstory.com>
+Date:   Tue May 14 17:49:16 2024 +0900
+
+    Merge remote-tracking branch 'origin/main'
+
+commit 15cd5aa4f022ca4537884f32403da4b7b84d1d36
+Author: laon-public <private@laonstory.com>
+Date:   Tue May 14 17:48:45 2024 +0900
+
+    iker / 버전 컨트롤
+
+commit 8d008537bb369f57fa0199714dd37e66712ae579
+Author: laon-private <private@laonstory.com>
+Date:   Tue May 14 10:16:36 2024 +0900
+
+    steve / ios 권한 추가 및 에러 수정
+
+commit 0363769a7d1c0a831e8cd46df02ab4ad700a3bd5
+Author: laon-public <private@laonstory.com>
+Date:   Mon May 13 10:58:29 2024 +0900
+
+    iker / 회원탈퇴기능 추가
+
+commit 004d1c7835d6c01358e017ec8dde14f826b1d10d
+Author: laon-public <private@laonstory.com>
+Date:   Mon May 13 10:26:41 2024 +0900
+
+    iker / 버전수정
+
+commit ab64f5c6d9ff07c75c408d50b64d53481fdf7196
+Merge: 8dc7c24 fe1deb4
+Author: laon-private <private@laonstory.com>
+Date:   Fri May 10 15:56:33 2024 +0900
+
+    Merge remote-tracking branch 'origin/main'
+
+commit 8dc7c244bc123eb3089e4b2197548fe9b20b1242
+Author: laon-private <private@laonstory.com>
+Date:   Fri May 10 15:56:21 2024 +0900
+
+    steve / 필터 영문 변환 수정 및 이용약관 레이아웃 변경, 비밀번호 변경 레이아웃 수정
+
+commit fe1deb42262fce59fcec5802ab4df4e6f4e8a95f
+Author: laon-public <private@laonstory.com>
+Date:   Fri May 10 15:33:26 2024 +0900
+
+    iker / ios product_bundle_identifier 설정
+
+commit 1865675a430203ba414e53ac27b22a69bcb85d30
+Author: laon-public <private@laonstory.com>
+Date:   Fri May 10 14:55:11 2024 +0900
+
+    iker / 언어 기본 값 세팅 오류 수정
+
+commit 4db015aa6722be2e0ca29b63e5d9bb93fa5748c0
+Author: laon-private <private@laonstory.com>
+Date:   Fri May 10 14:53:47 2024 +0900
+
+    steve / password 레이아웃 변경 및 필터 수정
+
+commit 8f41a3897ce831f5f75a7d99551736ac7ba350a9
+Author: laon-public <private@laonstory.com>
+Date:   Fri May 10 13:50:43 2024 +0900
+
+    iker / 마이페이지 null check 오류 수정
+
+commit fd15c96893d211fc1f1de3c520bf5fe41609e236
+Author: laon-public <private@laonstory.com>
+Date:   Fri May 10 13:01:42 2024 +0900
+
+    iker / 빌드 세팅 및 버그 수정
+
+commit d04218be3775ec4bfc3025b056456386858e8ee7
+Author: laon-private <private@laonstory.com>
+Date:   Thu May 9 22:33:28 2024 +0900
+
+    steve / sns 링크 수정
+
+commit e8bfe52825af5bd55ce9861d00cc55fde149bacf
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 9 22:14:37 2024 +0900
+
+    iker / api 세팅
+
+commit 6dbd44dab27bbda912d93598d260643da2c66cc9
+Author: laon-private <private@laonstory.com>
+Date:   Thu May 9 21:58:46 2024 +0900
+
+    steve / mypage 수정
+
+commit 379e60b6775d9085b0f8a97bee560d6679b25d8d
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 9 17:02:26 2024 +0900
+
+    iker / 주소록 리스트 뷰 수정, 계정초기화 api 오타 수정
+
+commit b2446585e28ed76f75c8e4507610b1a047e4a7ce
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 9 16:05:39 2024 +0900
+
+    iker / 유저 계정 패스워드 초기화 API 작성
+
+commit 21a099ee0888602673612b61bdf293be50fe25f5
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 9 15:57:11 2024 +0900
+
+    iker / 커뮤니티 작성 페이지 조건부 작성
+
+commit 90f5050d56111d5a86a122f9d86d60d1f72fe4a7
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 9 15:22:56 2024 +0900
+
+    iker / 로그아웃 기능제작, 이용약관 동의시 기록
+
+commit d642ba38896cd44c94a8d21c5565dcad63dcd108
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 9 14:52:07 2024 +0900
+
+    iker / 조건수정
+
+commit f67c7555ee77dd804fb3915543e0d5203597e184
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 9 14:50:46 2024 +0900
+
+    iker / 서비스 정지화면 완료
+
+commit 05907a86d06f5f60c5bd88dbf1547c9bb005e691
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 9 12:12:17 2024 +0900
+
+    iker / 마이페이지 sns리스트 수정
+
+commit d72f4aade00014bec9d5a33635a04dca133aba37
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 9 11:46:35 2024 +0900
+
+    iker / 마이페이지 완료, 서비스 중지 화면 제작 중
+
+commit a851a3cbed040e46b8abe5fb644695981c49db6e
+Author: laon-private <private@laonstory.com>
+Date:   Wed May 8 23:11:25 2024 +0900
+
+    steve / mypage api연동 및 화면구성
+
+commit cac40497966bb96860dca0f06004bda32cd9e044
+Author: laon-public <private@laonstory.com>
+Date:   Wed May 8 23:10:13 2024 +0900
+
+    iker / 마이페이지 제작중
+
+commit fe506a15ae8079a93d9b2520a0bc3df1e49f643e
+Author: laon-public <private@laonstory.com>
+Date:   Wed May 8 21:52:15 2024 +0900
+
+    iker / 마이페이지 라우트 설정
+
+commit d9019ff35227c73a030f5a0379ad5c38bc488c54
+Author: laon-public <private@laonstory.com>
+Date:   Wed May 8 20:17:00 2024 +0900
+
+    iker / 마이페이지 api 세팅
+
+commit addb81d46162a3e21d52ce1eb7b68a2388c47887
+Author: laon-public <private@laonstory.com>
+Date:   Wed May 8 19:41:04 2024 +0900
+
+    iker / 마이페이지 파일 작성, 라우트 설정
+
+commit 6ef9e9d77f821ea15463cf32ab9db35feba42e23
+Author: laon-public <private@laonstory.com>
+Date:   Wed May 8 19:26:19 2024 +0900
+
+    iker / 로그인 개인정보 처리 방침 -> 이용약관으로 변경
+
+commit 36caea86a4dd5018a2f7976bf35dfad45f90eed1
+Author: laon-public <private@laonstory.com>
+Date:   Wed May 8 19:08:51 2024 +0900
+
+    iker / 소셜 페이지 완성
+
+commit 359789ef0ea58ae716d7b5967422a0606a69cd4f
+Author: laon-public <private@laonstory.com>
+Date:   Wed May 8 18:39:34 2024 +0900
+
+    iker / 커뮤니티 페이지 마무리 중
+
+commit 572fc1f8d47d2e3533d0998bab31b3995c71d3b6
+Merge: f6b02e5 8cf83ff
+Author: laon-private <private@laonstory.com>
+Date:   Wed May 8 18:34:55 2024 +0900
+
+    Merge remote-tracking branch 'origin/main'
+
+commit f6b02e5fd00ce6e6ed0a2637febd5d16071d5ede
+Author: laon-private <private@laonstory.com>
+Date:   Wed May 8 18:34:36 2024 +0900
+
+    steve / board, notice api연동 및 화면구성
+
+commit 8cf83ff5f2ce9b069c86798892a02e793c8540e9
+Author: laon-public <private@laonstory.com>
+Date:   Tue May 7 19:13:20 2024 +0900
+
+    iker / 소셜페이지 작업중
+
+commit 72a61ef1944779a20bbbb3fce5ed1eca2a8a855f
+Author: laon-private <private@laonstory.com>
+Date:   Tue May 7 16:19:33 2024 +0900
+
+    steve / notice api연동 및 화면구성
+
+commit 00ab755b4a4e70a3a76845282c0626d5ee2c660e
+Author: laon-public <private@laonstory.com>
+Date:   Tue May 7 13:54:46 2024 +0900
+
+    iker / 로그인 페이지 개인정보 처리 방침 팝업 추가
+
+commit 74fe09296955552d24c0014911b46ce6d80ee8fb
+Author: laon-public <private@laonstory.com>
+Date:   Fri May 3 17:24:32 2024 +0900
+
+    iker / 커뮤니티 페이지 제작중
+
+commit 495ffd38265831859b125bb3b3bf1461556e22c6
+Author: laon-public <private@laonstory.com>
+Date:   Fri May 3 16:26:28 2024 +0900
+
+    iker / 커뮤니티 페이지 제작중
+
+commit 0b19faa510dd226d0e0bb6138247e953e1d4ad8f
+Author: laon-private <private@laonstory.com>
+Date:   Thu May 2 18:32:14 2024 +0900
+
+    steve / address_view 리스트 연동
+
+commit 1a0acc575c1a15fc242c6198362629d1622b3dc9
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 2 17:34:26 2024 +0900
+
+    iker / 링크 동작 관련 manifest 재수정, 커뮤니티 페이지 팝업 설정 중
+
+commit 6253a486aff9094cabc8d4bee3fc780d5e3df89c
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 2 13:08:44 2024 +0900
+
+    iker / url_launcher 용 and, ios 코드 추가
+
+commit 285c3f25012c3cb199ef9fd9151ee4bbd3924b04
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 2 13:06:30 2024 +0900
+
+    iker / link 용 url_launcher 추가 (추가 설정은 아직 안함)
+
+commit 1f0704bef7fbdfa357b898c8e01911c8573e9dc7
+Author: laon-public <private@laonstory.com>
+Date:   Thu May 2 11:09:51 2024 +0900
+
+    iker / modal_view 제작
+
+commit c7fb3bb78d78e8ccaf9d3646ece0644517a21055
+Merge: 492e257 b7af35e
+Author: laon-private <private@laonstory.com>
+Date:   Tue Apr 30 19:08:09 2024 +0900
+
+    Merge remote-tracking branch 'origin/main'
+
+commit 492e2570379f5c0f77a10da587b0e16e7cef53d3
+Author: laon-private <private@laonstory.com>
+Date:   Tue Apr 30 19:07:59 2024 +0900
+
+    steve / address_view_model 수정
+
+commit 7cb3770aa62cefad926e91bb6c88140b7b036bba
+Author: laon-private <private@laonstory.com>
+Date:   Tue Apr 30 19:07:08 2024 +0900
+
+    steve / address_view_model 수정
+
+commit b7af35e7941760d0984c633464a3f6f6155e67d3
+Author: laon-public <private@laonstory.com>
+Date:   Tue Apr 30 18:56:44 2024 +0900
+
+    iker / 커뮤니티 페이지 준비
+
+commit 0506b6c40ada4a725bb85bb23487a1b0d934f02f
+Author: laon-private <private@laonstory.com>
+Date:   Tue Apr 30 17:05:54 2024 +0900
+
+    steve / address_view_model 수정
+
+commit e6ff5d7751d8be17d89006a4ae50c101ae23fda4
+Author: laon-private <private@laonstory.com>
+Date:   Tue Apr 30 15:44:16 2024 +0900
+
+    steve / api 수정
+
+commit 3ff870da3ed3223a688436d3fdcb2a0637ef6c97
+Author: laon-public <private@laonstory.com>
+Date:   Tue Apr 30 14:37:22 2024 +0900
+
+    iker / searchTypeList 번역 적용
+
+commit 1461548cb0673fcae0dce10ea7591042a1777d0e
+Author: laon-private <private@laonstory.com>
+Date:   Tue Apr 30 14:23:00 2024 +0900
+
+    steve / 마이페이지 누락
+
+commit f19b5e29d56fcb0a0656be4bb103bb3bd06edcc8
+Merge: 857f81f ca931ed
+Author: laon-private <private@laonstory.com>
+Date:   Tue Apr 30 14:18:45 2024 +0900
+
+    Merge remote-tracking branch 'origin/main'
+
+commit 857f81f8dd2c5388edbf977b373236b4a747da74
+Author: laon-private <private@laonstory.com>
+Date:   Tue Apr 30 14:18:07 2024 +0900
+
+    steve / 모델클래스 추가 및 수정
+
+commit 649fbaac65d0dfac319d65a7ad9fb678238237df
+Author: laon-private <private@laonstory.com>
+Date:   Mon Apr 29 10:19:35 2024 +0900
+
+    steve / 예외처리 코드 추가 및 수정
+
+commit 85a0942e0086f27936a397b52bbacc07b0c1c5f8
+Author: laon-private <private@laonstory.com>
+Date:   Mon Apr 29 10:18:58 2024 +0900
+
+    steve / 예외처리 코드 추가 및 수정
+
+commit ca931ed96652cb5a55b8ed3bccf62e123ec0dd5a
+Author: laon-public <private@laonstory.com>
+Date:   Fri Apr 26 15:42:04 2024 +0900
+
+    iker / fvm 적용 후 pub get
+
+commit c990f4cf0760abf8ab25f3be528c8cdb6a176e86
+Author: laon-public <private@laonstory.com>
+Date:   Fri Apr 26 10:33:30 2024 +0900
+
+    iker / flutter version - 3.19.6, dart version 3.3.4 업그레이드
+
+commit 75aa9eb2ba9af0d8a419972627e66f030a410215
+Author: laon-private <private@laonstory.com>
+Date:   Thu Apr 25 18:41:53 2024 +0900
+
+    steve / 스타일 추가
+
+commit 6cee6235e59cea024b1fb71e5bd9acdcde99a299
+Author: laon-public <private@laonstory.com>
+Date:   Thu Apr 25 16:51:25 2024 +0900
+
+    iker / 로그인 페이지 제작중(스타일링)
+
+commit 16df993cffa1a92c1f43cd77047c80956d4bcbb1
+Author: laon-public <private@laonstory.com>
+Date:   Thu Apr 25 16:13:49 2024 +0900
+
+    iker / 주소록 리스트 제작중, 언어번경 기능(ko, en) 제작
+
+commit 5c4c8a1df818aa5a04c9ab80fc2fdb1c0810d4ce
+Author: laon-public <private@laonstory.com>
+Date:   Wed Apr 24 18:52:58 2024 +0900
+
+    iker / api호출시 헤더 설정, 주소록 리스트 연동 중
+
+commit dbbb3c989654fa8c5f386f26f71c98ca9540855e
+Author: laon-private <private@laonstory.com>
+Date:   Wed Apr 24 16:36:18 2024 +0900
+
+    steve / 로그인 레퍼지토리 수정 및 라우팅, 에러 다이얼로그 추가
+
+commit 3686e578833b8b7a8f4367b683c88e473044de72
+Author: laon-private <private@laonstory.com>
+Date:   Wed Apr 24 16:35:24 2024 +0900
+
+    steve / 로그인 레퍼지토리 수정 및 라우팅, 에러 다이얼로그 추가
+
+commit 5fa42d7b247953547653063b095e2f9345b4560e
+Author: laon-public <private@laonstory.com>
+Date:   Wed Apr 24 15:52:06 2024 +0900
+
+    iker / 화면 일부 제작중
+
+commit dfd8f07f659641933b5f1a7ebc5f619cfbd5d267
+Author: laon-public <private@laonstory.com>
+Date:   Wed Apr 24 14:36:44 2024 +0900
+
+    iker / 로그인 post로 변경
+
+commit 2fc95b371fa2934f63c6913d4ce74e32fba481f9
+Author: laon-private <private@laonstory.com>
+Date:   Tue Apr 23 17:46:42 2024 +0900
+
+    steve / Readme파일 추가 및 폴더구조 변경
+
+commit 770df8933f2c0a89decca595c882210d498a4aaa
+Author: laon-private <private@laonstory.com>
+Date:   Tue Apr 23 17:32:25 2024 +0900
+
+    'Readme파일 추가 및 폴더구조 변경'
+
+commit 279bd93956410d654e61bb24c89ca494f9f4c620
+Author: laon-private <private@laonstory.com>
+Date:   Tue Apr 23 17:31:48 2024 +0900
+
+    'Readme파일 추가 및 폴더구조 변경'
+
+commit 4940cd2c2438bbc1505f07181bb5e721e9d66b02
+Author: laon-public <private@laonstory.com>
+Date:   Tue Apr 23 16:38:53 2024 +0900
+
+    iker / api 기본 베이스 리스트 작성, shared_preferences 패키지 추가
+
+commit 8b2b6af928cdba82de7630c4fa7721f988aa870f
+Author: laon-private <private@laonstory.com>
+Date:   Tue Apr 23 10:13:49 2024 +0900
+
+    create project
+
+commit 274ce0ad72088c7abb1b348e645802e284dbd253
+Author: laon-public <private@laonstory.com>
+Date:   Mon Apr 22 15:05:24 2024 +0900
+
+    iker / 버전 수정
+
+commit c3a7d3a03090ce94f92c947b2b50fdb3c70e275f
+Author: laon-public <private@laonstory.com>
+Date:   Mon Apr 22 11:16:43 2024 +0900
+
+    iker / 프로젝트 생성

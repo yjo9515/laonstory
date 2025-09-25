@@ -1,0 +1,2 @@
+/Users/yunjunoh/Documents/GitHub/uos/app/android/app/.cxx/RelWithDebInfo/5e1p361w/x86_64/CMakeFiles/edit_cache.dir
+/Users/yunjunoh/Documents/GitHub/uos/app/android/app/.cxx/RelWithDebInfo/5e1p361w/x86_64/CMakeFiles/rebuild_cache.dir
