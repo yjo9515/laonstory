@@ -1,0 +1,7 @@
+{
+    "isBank": true,
+    "isAccountNumber" : true,
+    "isName" : true,      
+    "isPhone": true,
+    "isEmail" : true
+}
