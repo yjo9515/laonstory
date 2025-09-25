@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+ <data>
+
+  <variable
+      name="vm"
+      type="com.laonstory.linenseoul.presentation.add.AddPresenter" />
+ </data>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     tools:context=".fragment.AddFragment">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="16dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginBottom="8dp"
+      android:gravity="center"
+      android:orientation="horizontal">
+
+   <TextView
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:text="@string/check_franchise"
+       android:textColor="@color/text_gray_444444"
+       android:textSize="14sp" />
+
+   <AutoCompleteTextView
+       android:id="@+id/ac_franchise"
+       android:layout_width="0dp"
+       android:layout_height="36dp"
+       android:layout_weight="3"
+       android:background="@drawable/rounded_side_stoke_gray"
+       android:completionThreshold="1"
+       android:drawableEnd="@drawable/ic_search"
+       android:imeOptions="actionDone"
+       android:inputType="text"
+       android:maxLines="1"
+       android:paddingHorizontal="12dp"
+       android:textColor="@color/text_gray_444444"
+       android:textSize="14sp"
+       tools:ignore="LabelFor,RtlSymmetry" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="16dp"
+      android:layout_marginBottom="16dp"
+      android:gravity="center"
+      android:orientation="horizontal">
+
+   <TextView
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:text="@string/item_name"
+       android:textColor="@color/text_gray_444444"
+       android:textSize="14sp" />
+
+   <Spinner
+       android:id="@+id/sp_item_name"
+       android:layout_width="0dp"
+       android:layout_height="36dp"
+       android:layout_weight="3"
+       android:background="@drawable/rounded_side_stoke_gray"
+       android:popupBackground="@drawable/rounded_side_stoke_gray"
+       android:spinnerMode="dropdown" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:orientation="horizontal">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/search_count"
+       android:textColor="@color/text_gray_444444"
+       android:textSize="14sp" />
+
+   <TextView
+       android:id="@+id/tv_search_count"
+       ba_text="@{vm.totalTagLiveData}"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="4dp"
+       android:layout_weight="1"
+       android:text="@string/num_0"
+       android:textColor="@color/text_gray_444444"
+       android:textSize="14sp"
+       tools:ignore="RtlHardcoded" />
+
+   <TextView
+       android:id="@+id/tv_reset"
+       style="@style/ResetTextView" />
+
+  </LinearLayout>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/stroke_gray_BDBDBD" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginVertical="16dp"
+      android:orientation="horizontal">
+
+   <TextView
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:gravity="center"
+       android:text="@string/no"
+       android:textColor="@color/text_gray_444444"
+       android:textSize="14sp" />
+
+   <TextView
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="3"
+       android:gravity="center"
+       android:text="@string/tag_id"
+       android:textColor="@color/text_gray_444444"
+       android:textSize="14sp" />
+
+  </LinearLayout>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/stroke_gray_BDBDBD" />
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        ba_string_list="@{vm.arrTagListLiveData}"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <Button
+        android:id="@+id/bt_add"
+        style="@style/RoundedCornerButton"
+        android:layout_marginVertical="24dp"
+        android:text="@string/add" />
+
+   </LinearLayout>
+
+   <TextView
+       android:id="@+id/tv_explain"
+       ba_visibility="@{vm.isEmptyTextVisibleLiveData}"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/white"
+       android:gravity="center"
+       android:onClick="@{() -> true}"
+       android:text="@string/select_member_input_scan_tag"
+       android:textColor="@color/text_gray_444444"
+       android:textSize="14sp" />
+
+  </RelativeLayout>
+
+ </LinearLayout>
+</layout>

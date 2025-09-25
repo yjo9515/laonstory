@@ -1,0 +1,9 @@
+# ninja log v5
+0	313	1723097978	CMakeFiles/ModuleAPI.dir/src/Logger.c.o	c7720f705706578f
+6	315	1723097978	CMakeFiles/ModuleAPI.dir/src/SerialPort.c.o	d5de928be5868457
+5	316	1723097978	CMakeFiles/ModuleAPI.dir/src/ModuleAPI.c.o	6899b98eba95b860
+316	397	1723097978	/Users/yunjunoh/Desktop/HCUHFAAA/HCUHF/ModuleAPI/src/main/jniLibs/armeabi-v7a/libModuleAPI.so	72fcbc0c89bc4db6
+1	381	1724041814	CMakeFiles/ModuleAPI.dir/src/ModuleAPI.c.o	6899b98eba95b860
+381	477	1724041815	/Users/yunjunoh/Desktop/HCUHFAAA/HCUHF/ModuleAPI/src/main/jniLibs/armeabi-v7a/libModuleAPI.so	72fcbc0c89bc4db6
+0	324	1724054714	CMakeFiles/ModuleAPI.dir/src/ModuleAPI.c.o	6899b98eba95b860
+324	459	1724054714	/Users/yunjunoh/Desktop/HCUHFAAA/HCUHF/ModuleAPI/src/main/jniLibs/armeabi-v7a/libModuleAPI.so	72fcbc0c89bc4db6

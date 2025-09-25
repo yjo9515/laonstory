@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">린넨서울</string>
+    <string name="pref_name">prefData</string>
+    <string name="pref_access_token">prefAccessToken</string>
+    <string name="pref_refresh_token">prefRefreshToken</string>
+    <string name="pref_power">prefPower</string>
+    <string name="pref_user_list">prefUserList</string>
+
+    <string name="role_admin">ROLE_MASTER_ADMIN</string>
+    <string name="role_brand">ROLE_MASTER</string>
+    <string name="role_franchise">ROLE_FRANCHISE</string>
+    <string name="role_factory">ROLE_FACTORY</string>
+    <string name="role_driver">ROLE_DRIVER</string>
+
+    <string name="admin">관리자</string>
+    <string name="brand">브랜드</string>
+    <string name="franchise">지점</string>
+    <string name="factory">세탁공장</string>
+    <string name="driver">배송업체</string>
+
+    <string name="bracket_brand">(브랜드)</string>
+    <string name="bracket_franchise">(지점)</string>
+    <string name="bracket_factory">(세탁공장)</string>
+    <string name="bracket_driver">(배송업체)</string>
+
+    <string name="extra_fragment_position">extraFragmentPosition</string>
+
+    <string name="input_id">아이디를 입력해주세요.</string>
+    <string name="input_pw">비밀번호를 입력해주세요.</string>
+    <string name="find_id">아이디 찾기</string>
+    <string name="vertical_bar">ㅣ</string>
+    <string name="find_pw">비밀번호 찾기</string>
+    <string name="sign_up">회원가입</string>
+    <string name="login">로그인</string>
+    <!--    <string name="copyright">Copyright ⓒLEADGO. All Rights Reserved.</string>-->
+    <string name="copyright">Copyright ⓒCLEANKOREAINC. All Rights Reserved.</string>
+
+    <string name="mobile_info">모바일 정보</string>
+    <string name="item_name">품목명</string>
+    <string name="search_count">검색수 :</string>
+    <string name="no">No</string>
+    <string name="tag_id">TAG ID</string>
+    <string name="num_0">0</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="deliver">배송</string>
+    <string name="request">신청</string>
+    <string name="done">완료</string>
+    <string name="test_text">테스트 123 Test</string>
+
+    <string name="select_member_input_scan_tag">지점 조회하고 품목명을 입력 후\nPDA로 TAG를 인식해 주세요.</string>
+    <string name="select_member_scan_tag">지점 조회하고\nPDA로 TAG를 인식해 주세요.</string>
+    <string name="scan_tag_pda">PDA로 TAG를 인식해 주세요.</string>
+    <string name="error_try_again_later">오류가 발생하였습니다. 잠시 후 다시 시도해 주세요.</string>
+    <string name="wrong_id_or_pw">아이디 또는 비밀번호가 잘못되었습니다.</string>
+
+    <string name="add_tag">TAG 등록</string>
+    <string name="edit_tag">TAG 수정</string>
+    <string name="delete_tag">TAG 폐기</string>
+    <string name="check_tag">TAG 조회</string>
+    <string name="manage_tag">TAG 관리</string>
+    <string name="check_franchise">지점 조회</string>
+    <string name="add">등록하기</string>
+    <string name="edit">수정하기</string>
+    <string name="delete">폐기하기</string>
+    <string name="edit_item_name">수정 품목명</string>
+    <string name="registration_date">등록날짜</string>
+    <string name="receiving_date">입고날짜</string>
+
+    <string name="my_info">내 정보</string>
+    <string name="notice">공지사항</string>
+    <string name="policy">약관 및 정책</string>
+    <string name="logout">로그아웃</string>
+    <string name="id">아이디</string>
+    <string name="phone">연락처</string>
+    <string name="role">등급</string>
+    <string name="count">개수</string>
+    <string name="search">검색</string>
+    <string name="date">날짜</string>
+    <string name="tilde">~</string>
+    <string name="shipping_date">출고날짜</string>
+    <string name="brand_name">지점/브랜드명</string>
+    <string name="factory_name">공장명</string>
+    <string name="brand_user">담당자</string>
+    <string name="factory_user">대표자</string>
+    <string name="admin_user">등급</string>
+    <string name="address">주소</string>
+
+    <string name="total_receiving">입고합계 :</string>
+    <string name="total_request">신청합계 :</string>
+    <string name="total_completion">완료합계 :</string>
+    <string name="total_shipping">출고합계 :</string>
+    <string name="total_delivery">배송합계 :</string>
+
+    <string name="laundry_request">세탁신청</string>
+    <string name="laundry_complete">세탁완료</string>
+    <string name="check_laundry_request_detail">세탁 신청 내역 조회</string>
+    <string name="manage_laundry">세탁 관리</string>
+    <string name="request_laundry_receiving">세탁입고 신청</string>
+    <string name="request_laundry_progress">세탁진행 신청</string>
+    <string name="request_laundry_shipping">세탁출고 신청</string>
+    <string name="laundry_request_completion">세탁완료 신청</string>
+    <string name="check_laundry">세탁 조회</string>
+    <string name="check_laundry_request">세탁신청조회</string>
+    <string name="check_laundry_completion">세탁완료조회</string>
+
+    <string name="factory_receiving">세탁공장 입고</string>
+    <string name="factory_shipping">세탁공장 출고</string>
+    <string name="check_factory_receiving_shipping">세탁공장 입·출고 정보 조회</string>
+    <string name="manage_factory">세탁공장 관리</string>
+    <string name="check_factory_shipping">세탁공장출고조회</string>
+    <string name="check_factory_receiving">세탁공장입고조회</string>
+    <string name="check_factory">세탁공장 조회</string>
+    <string name="choose_factory">세탁공장 선택</string>
+
+    <string name="receive_laundry_receiving">세탁 입고 수령</string>
+    <string name="receive_laundry_shipping">세탁 출고 수령</string>
+    <string name="manage_delivery">세탁배송 관리</string>
+    <string name="laundry_receiving_delivery">세탁입고 배송</string>
+    <string name="laundry_shipping_delivery">세탁출고 배송</string>
+
+    <string name="ask_admin_add_tag">TAG를 최종 등록하시겠습니까?</string>
+    <string name="ask_admin_edit_tag">TAG를 최종 수정하시겠습니까?</string>
+    <string name="ask_admin_delete_tag">TAG를 최종 폐기하시겠습니까?</string>
+    <string name="ask_member_request">해당 리스트를\n세탁 진행 신청하시겠습니까?</string>
+    <string name="ask_member_complete">해당 리스트를\n최종 세탁 완료하시겠습니까?</string>
+    <string name="ask_factory_receiving">해당 리스트를\n세탁 공장 입고하시겠습니까?</string>
+    <string name="ask_factory_shipping">해당 리스트를\n세탁 공장 출고하시겠습니까?</string>
+    <string name="ask_receiving_delivery">해당 리스트를\n세탁 공장 입고 배송하시겠습니까?</string>
+    <string name="ask_shipping_delivery">해당 리스트를\n세탁 공장 출고 배송하시겠습니까?</string>
+    <string name="ask_factory_request">해당 리스트를\n세탁 신청 하시겠습니까?</string>
+    <string name="ask_factory_complete">해당 리스트를\n세탁 완료 하시겠습니까?</string>
+    <string name="ask_factory_re_laundry">해당 리스트를\n재세탁 입력 하시겠습니까?</string>
+    <string name="ask_delete_id">목록에서 삭제하시겠습니까?</string>
+    <string name="ask_logout">로그아웃 하시겠습니까?</string>
+    <string name="ask_exit_app">앱을 종료하시겠습니까?</string>
+
+    <string name="reset">초기화</string>
+    <string name="signal_power">신호세기</string>
+    <string name="scan_power_help">[ 신호세기 도움말 ]</string>
+    <string name="power_level_1">- 1단계(신호세기 150)\n 스캔 범위 : 반경 20~30cm</string>
+    <string name="power_level_2">- 2단계(신호세기 200)\n 스캔 범위 : 반경 40~50cm</string>
+    <string name="power_level_3">- 3단계(신호세기 250)\n 스캔 범위 : 반경 60~70cm</string>
+    <string name="power_level_4">- 4단계(신호세기 300)\n 스캔 범위 : 반경 70~80cm</string>
+    <string name="power_recommended">* 단계는 신호의 강도를 나타내며 반경\n 30~50cm 에서의 스캔을 권장 합니다.</string>
+    <string name="remove_metal">* 스캔 시 가급적 주변의 금속 물건을\n 정리해주세요.</string>
+    <string name="switch_user">계정전환</string>
+    <string name="recent_login_date">최근접속일:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="franchise_check">지점 조회</string>
+    <string name="request_date_select">신청일 선택</string>
+    <string name="delivery_date_select">납품일 선택</string>
+    <string name="total">합계 :</string>
+    <string name="request_laundry">세탁신청</string>
+    <string name="re_laundry">재세탁</string>
+    <string name="re_laundry_input">재세탁 입력</string>
+    <string name="total_tag_input_ok">입력가능 :</string>
+    <string name="total_tag_input_done">입력완료 :</string>
+    <string name="app_version">앱 버전</string>
+
+    <string name="manage_user">사용자 관리</string>
+    <string name="add_user">사용자 등록</string>
+    <string name="change_user">사용자 변경</string>
+    <string name="delete_user">사용자 삭제</string>
+    <string name="check_user">사용자 조회</string>
+
+    <string name="select_member_user_scan_tag">지점, 부서명, 이름을 조회하고\nPDA로 TAG를 인식해 주세요.</string>
+
+    <string name="franchise_name">지점명</string>
+    <string name="department_name">부서명</string>
+    <string name="name">이름</string>
+    <string name="delete_text">삭제하기</string>
+    <string name="change_text">사용자 변경</string>
+    <string name="label_print">라벨프린트</string>
+    <string name="label_print_space">라벨 프린트</string>
+    <string name="label_scan_tag_auto">PDA로 TAG를 인식해 주세요.\n인식된 TAG는 자동 인쇄 됩니다.</string>
+    <string name="label_scan_tag_manual">PDA로 TAG를 인식해 주세요.\n인식된 TAG는 인쇄 버튼을 누르면 인쇄 됩니다.</string>
+    <string name="delete_complete">완료목록삭제</string>
+
+    <string name="ask_admin_user_add_tag">인식된 TAG에 사용자 정보를\n등록하시겠습니까?</string>
+    <string name="ask_admin_user_delete_tag">인식된 TAG에 사용자 정보를\n삭제하시겠습니까?</string>
+    <string name="ask_admin_user_change_tag">인식된 TAG에 사용자 정보를\n변경하시겠습니까?</string>
+    <string name="num">번호</string>
+
+    <string name="label_print_txt">인쇄하기</string>
+</resources>

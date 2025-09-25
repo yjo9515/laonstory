@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingVertical="24dp"
+        tools:context=".activity.MenuActivity">
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="120dp"-->
+        <!--            android:layout_marginHorizontal="24dp"-->
+        <!--            android:src="@drawable/logo_linen"-->
+        <!--            tools:ignore="ContentDescription" />-->
+        <ImageView
+            android:id="@+id/imageView"
+
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginHorizontal="24dp"
+            android:background="@drawable/logo"
+            android:gravity="center"    />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--            <Button-->
+            <!--                android:id="@+id/bt_add_tag"-->
+            <!--                style="@style/MainButton"-->
+            <!--                android:text="@string/add_tag" />-->
+
+            <!--            <Button-->
+            <!--                android:id="@+id/bt_edit_tag"-->
+            <!--                style="@style/MainButton"-->
+            <!--                android:text="@string/edit_tag" />-->
+
+            <!--            <Button-->
+            <!--                android:id="@+id/bt_delete_tag"-->
+            <!--                style="@style/MainButton"-->
+            <!--                android:text="@string/delete_tag" />-->
+
+            <!--            <Button-->
+            <!--                android:id="@+id/bt_check_tag"-->
+            <!--                style="@style/MainButton"-->
+            <!--                android:text="@string/check_tag" />-->
+
+            <Button
+                android:id="@+id/bt_add_tag"
+                style="@style/MainButton"
+                android:text="@string/add_tag" />
+
+            <Button
+                android:id="@+id/bt_check_tag"
+                style="@style/MainButton"
+                android:text="@string/check_tag" />
+
+            <Button
+                android:id="@+id/bt_receive_receiving"
+                style="@style/MainButton"
+                android:text= "@string/laundry_request"/>
+
+            <Button
+                android:id="@+id/bt_laundry_complete"
+                style="@style/MainButton"
+                android:text="@string/laundry_complete" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginHorizontal="24dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            tools:ignore="RtlHardcoded,UseCompoundDrawables">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="@string/mobile_info"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_margin="4dp"
+                android:src="@drawable/ic_setting"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

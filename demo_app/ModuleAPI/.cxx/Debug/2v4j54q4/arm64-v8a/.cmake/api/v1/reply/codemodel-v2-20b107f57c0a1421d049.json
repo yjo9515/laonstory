@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ModuleAPI",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ModuleAPI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModuleAPI-Debug-75946d318a376bd15b0c.json",
+					"name" : "ModuleAPI",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yunjunoh/Desktop/linenseoul2/ModuleAPI/.cxx/Debug/2v4j54q4/arm64-v8a",
+		"source" : "/Users/yunjunoh/Desktop/linenseoul2/ModuleAPI/src/main/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

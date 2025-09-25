@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/yunjunoh/Desktop/Rfid_demo/ModuleAPI/src/main/jni/CMakeLists.txt",
+    "/Users/yunjunoh/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/yunjunoh/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/yunjunoh/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/yunjunoh/Desktop/Rfid_demo/ModuleAPI/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/yunjunoh/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/yunjunoh/Desktop/Rfid_demo/ModuleAPI/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ModuleAPI-Debug-armeabi-v7a": {
+      "artifactName": "ModuleAPI",
+      "buildCommand": "/Users/yunjunoh/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/yunjunoh/Desktop/Rfid_demo/ModuleAPI/.cxx/cmake/debug/armeabi-v7a\" ModuleAPI",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yunjunoh/Desktop/Rfid_demo/ModuleAPI/src/main/jniLibs/armeabi-v7a/libModuleAPI.so",
+      "runtimeFiles": []
+    }
+  }
+}

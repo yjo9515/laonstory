@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="RtlHardcoded,HardcodedText">
+
+    <data>
+
+        <variable
+            name="vm"
+            type="com.laonstory.linenseoul.presentation.scantag.ScanTagPresenter" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragment.FactoryRequestFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/franchise_check"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ac_franchise"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="3"
+                android:background="@drawable/rounded_side_stoke_gray"
+                android:completionThreshold="1"
+                android:drawableEnd="@drawable/ic_search"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingHorizontal="12dp"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp"
+                tools:ignore="LabelFor,RtlSymmetry" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/choose_factory"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/factoryAll"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="3"
+                android:drawableEnd="@drawable/ic_down_arrow"
+
+                android:spinnerMode="dropdown" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_total"
+                ba_text="@{vm.totalTagLiveData}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/num_0"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/total_tag_input_ok"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_input_total"
+                ba_text="@{vm.totalInputTagLiveData}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/num_0"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/total_tag_input_done"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_done_total"
+                ba_text="@{vm.totalDoneTagLiveData}"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:text="@string/num_0"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/tv_reset"
+                style="@style/ResetTextView" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/stroke_gray_BDBDBD" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/no"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/item_name"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/count"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/stroke_gray_BDBDBD" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv"
+                    ba_rv_tag_list="@{vm.arrRVTagListLiveData}"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+                <Button
+                    android:id="@+id/bt_ok"
+                    style="@style/RoundedSideButton"
+                    android:layout_marginVertical="24dp"
+                    android:text="@string/request_laundry" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_explain"
+                ba_visibility="@{vm.isEmptyTextVisibleLiveData}"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center"
+                android:onClick="@{() -> true}"
+                android:text="@string/scan_tag_pda"
+                android:textColor="@color/text_gray_444444"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>
