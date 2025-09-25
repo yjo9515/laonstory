@@ -1,0 +1,135 @@
+name: jeju_host_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 0.4.2+7
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #State manage
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.1
+  bloc: ^8.1.0
+  bloc_concurrency: ^0.2.0
+  stream_transform: ^2.1.0
+
+  #logic
+  http: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.0.17
+  json_annotation: ^4.7.0
+  url_launcher: ^6.1.10
+  http_parser: ^4.0.2
+  go_router: ^8.1.0
+  copy_with_extension: ^5.0.3
+  kakao_flutter_sdk: ^1.5.0
+  google_sign_in: ^6.1.6
+  sign_in_with_apple: ^5.0.0
+  flutter_naver_login: ^1.8.0
+
+  #view
+  flutter_icon_snackbar: ^1.1.4
+  flutter_icon_dialog: ^1.2.1
+  icon_animated: ^1.2.1
+  flutter_static_utility: ^1.0.2
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.2
+  cached_network_image: ^3.3.0
+  flutter_html: ^3.0.0-beta.1
+  auto_size_text: ^3.0.0
+  lottie: ^2.6.0
+  visibility_detector: ^0.4.0+2
+  confetti: ^0.7.0
+  carousel_slider: ^4.2.1
+  cr_calendar: ^1.2.1
+  shimmer: ^3.0.0
+  webview_flutter: ^4.4.2
+  tosspayments_widget_sdk_flutter: ^1.0.2
+  iamport_flutter: ^0.10.0
+  flutter_rating_bar: ^4.0.1
+
+  #util
+  url_strategy: ^0.2.0
+  logger: ^2.0.2+1
+  intl: ^0.18.0
+  device_info_plus: ^9.1.1
+  package_info_plus: ^5.0.1
+  permission_handler: ^11.1.0
+  envied: ^0.5.2
+  encrypt: ^5.0.1
+  dotted_border: ^2.0.0+3
+  google_maps_flutter: ^2.5.0
+  apple_maps_flutter: ^1.2.0
+  flutter_naver_map: ^1.1.1
+  currency_text_input_formatter: ^2.1.10
+  image_picker: ^1.0.4
+  flutter_reorderable_grid_view: ^4.0.0
+  file_picker: ^6.1.1
+  path_provider: ^2.0.2
+
+  #firebase
+  firebase_core: ^2.24.0
+  firebase_messaging: ^14.2.1
+  flutter_local_notifications: ^16.2.0
+  firebase_performance: ^0.9.0+16
+  firebase_crashlytics: ^3.4.6
+  firebase_analytics: ^10.1.6
+
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  source_gen: ^1.3.2
+  build_runner: ^2.4.4
+  json_serializable: ^6.5.4
+  envied_generator: ^0.5.2
+  copy_with_extension_gen: ^5.0.3
+  change_app_package_name: ^1.1.0
+  index_generator: ^3.4.1
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - .env
+  fonts:
+    - family: LINESeedKR
+      fonts:
+        - asset: assets/fonts/LINE_Seed_Sans_KR_OTF/LINESeedKR-Th.otf
+          weight: 100
+        - asset: assets/fonts/LINE_Seed_Sans_KR_OTF/LINESeedKR-Rg.otf
+          weight: 400
+        - asset: assets/fonts/LINE_Seed_Sans_KR_OTF/LINESeedKR-Bd.otf
+          weight: 700
