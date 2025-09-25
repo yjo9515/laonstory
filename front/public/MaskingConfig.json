@@ -1,0 +1,6 @@
+{
+    "isPhone": true,
+    "isEmail" : true,
+    "isName" : true,
+    "isCompanyName" : true
+}

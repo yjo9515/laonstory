@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <meta name="google" content="notranslate" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    /> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://code.s4d.io/widget-space/production/main.css" />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.s4d.io/widget-space/production/bundle.js"></script>
+    <!-- <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=%REACT_APP_KAKAO_MAP_KEY%&libraries=services"
+    ></script> -->
+
+    <style>
+      #loadingElement {
+        animation: 1s linear infinite rotateLoadingElement;
+      }
+      /* @keyframes rotateLoadingElement {
+        from {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(360deg);
+        }
+      } */
+
+      /* index.css */
+      /* #root:not(:empty) ~ #loading {
+        display: none;
+      } */
+
+      #loading {
+        background-color: #f9f9f9;
+        color: #5c87e8;
+        font-size: 20px;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <title>한국서부발전 평가시스템</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <div id="loading">페이지를 불러오는 중입니다.<br />잠시만 기다려 주세요.</div>
+
+    <div
+      id="notUseBorwer"
+      style="
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div className="wrapper">
+        <h1 style="color: #5c87e8">
+          죄송합니다.
+          <br />
+          한국서부발전 제안서 평가시스템은
+          <br />
+          internet explorer에서 이용하실 수 없습니다.
+        </h1>
+        <ul style="margin-top: 40px; padding-left: 30px">
+          <li>저희 서비스는 Google Chrome에 최적화 되어있습니다.</li>
+          <li>Chrome 또는 Edge에서 다시 이용해주세요.</li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      var agent = navigator.userAgent.toLowerCase();
+      var b = document.getElementById("notUseBorwer");
+      var root = document.getElementById("root");
+      var loading = document.getElementById("loading");
+
+      var ua = window.navigator.userAgent;
+      var msie = ua.indexOf("MSIE ");
+
+      if (
+        // (navigator.appName == "Netscape" && agent.indexOf("trident") != -1) ||
+        // agent.indexOf("msie") != -1
+        msie > 0 ||
+        !!navigator.userAgent.match(/Trident.*rv\:11\./)
+      ) {
+        // ie일 경우
+        b.style.display = "flex";
+        root.style.display = "none";
+        loading.style.display = "none";
+
+        window.open("microsoft-edge:" + window.location, "", "_blank").close();
+      }
+      // if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+      //   window.location = "microsoft-edge:" + window.location;
+      // }
+    </script>
+  </body>
+</html>
